@@ -1,4 +1,9 @@
-## Changes
+## Changes 
+
+## Changes 2.8.4
+* Bug
+
+    * Connection to Lets Encrypt secured server fails
 
 ### Changes in 2.8.3
 

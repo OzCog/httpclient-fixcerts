@@ -83,3 +83,16 @@ Please file a ticket at the project web site.
 ## Changes
 
 See [ChangeLog](https://github.com/nahi/httpclient/blob/master/CHANGELOG.md)
+
+
+## Release
+
+Prerequisites:
+- install gemfury client with `gem install gemfury`
+
+To release a new version:
+- create a branch from `master`
+- update the version number in `./lib/httpclient/version`,
+- update the `CHANGELOG.md`
+- create a Pull Request, get it approved and merged to master
+- checkout `master` and run `rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [gemfury.com](https://gemfury.com).
