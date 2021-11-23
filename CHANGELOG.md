@@ -1,6 +1,11 @@
 ## Changes 
 
-## Changes 2.8.4
+### Changes in 2.8.5
+* Changes
+
+    * Remove safe navigation operator from changes made in 2.8.3 to make gem compatible with Ruby versions < 2.3
+
+### Changes in 2.8.4
 * Bug
 
     * Connection to Lets Encrypt secured server fails
